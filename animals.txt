@@ -1,0 +1,5 @@
+dog mammal Django 8.0 25.0 plays
+cat mammal Cutie 5.0 18.0 sleeps
+spider arachnid Lordie 0.001 0.02 eats
+parrot bird Sunshine 0.05 10.0 sings
+goldfish fish Star 0.01 2.0 swims
