@@ -1,4 +1,6 @@
-package com.rutaslv.model;
+package com.rutaslv.model.animals;
+
+import com.rutaslv.model.moves.Sleep;
 
 public class Cat extends Animal {
     public Cat(String category, String family, String name, float weight, float height, String move) {
@@ -6,7 +8,7 @@ public class Cat extends Animal {
     }
 
     public void move() {
-        super.move();
-        System.out.println("I sleep all day. Shhhh...");
+        moveBehavior = new Sleep();
+        moveBehavior.move();
     }
 }

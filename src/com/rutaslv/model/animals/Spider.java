@@ -1,4 +1,6 @@
-package com.rutaslv.model;
+package com.rutaslv.model.animals;
+
+import com.rutaslv.model.moves.Eat;
 
 public class Spider extends Animal {
 
@@ -7,6 +9,7 @@ public class Spider extends Animal {
     }
 
     public void move() {
-        System.out.println("I eat all day. Yammy flies!");
+        moveBehavior = new Eat();
+        moveBehavior.move();
     }
 }

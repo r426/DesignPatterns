@@ -1,6 +1,6 @@
 package com.rutaslv.controller;
 
-import com.rutaslv.model.Animal;
+import com.rutaslv.model.animals.Animal;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

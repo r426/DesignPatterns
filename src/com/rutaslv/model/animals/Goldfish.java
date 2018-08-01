@@ -1,4 +1,6 @@
-package com.rutaslv.model;
+package com.rutaslv.model.animals;
+
+import com.rutaslv.model.moves.Swim;
 
 public class Goldfish extends Animal {
 
@@ -6,8 +8,9 @@ public class Goldfish extends Animal {
         super(category, family, name, weight, height, move);
     }
 
-    public void move(){
-        super.move();
-        System.out.println("I swim all day. My home is my ocean.");
+    public void move() {
+        moveBehavior = new Swim();
+        moveBehavior.move();
+
     }
 }
