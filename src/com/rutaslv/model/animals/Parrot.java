@@ -1,4 +1,6 @@
-package com.rutaslv.model;
+package com.rutaslv.model.animals;
+
+import com.rutaslv.model.moves.Sing;
 
 public class Parrot extends Animal {
 
@@ -6,8 +8,8 @@ public class Parrot extends Animal {
         super(category, family, name, weight, height, move);
     }
 
-    public void move(){
-        super.move();
-        System.out.println("I sing all day. Do you like my songs?");
+    public void move() {
+        moveBehavior = new Sing();
+        moveBehavior.move();
     }
 }

@@ -1,6 +1,6 @@
 package com.rutaslv.controller;
 
-import com.rutaslv.model.*;
+import com.rutaslv.model.animals.*;
 
 public class AnimalFactory {
 

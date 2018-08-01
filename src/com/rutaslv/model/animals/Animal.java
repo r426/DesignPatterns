@@ -1,6 +1,10 @@
-package com.rutaslv.model;
+package com.rutaslv.model.animals;
+
+import com.rutaslv.model.interfaces.Move;
 
 public class Animal {
+
+    Move moveBehavior;
 
     String category;
     String family;
@@ -42,7 +46,9 @@ public class Animal {
         return move;
     }
 
-    public void move(){
-        System.out.print("Hi! ");
+
+    public void move() {
+        moveBehavior.move();
     }
+
 }

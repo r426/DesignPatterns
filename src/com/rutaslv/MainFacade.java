@@ -2,7 +2,7 @@ package com.rutaslv;
 
 import com.rutaslv.controller.AnimalFarmSingleton;
 import com.rutaslv.view.InteractionWith;
-import com.rutaslv.model.Animal;
+import com.rutaslv.model.animals.Animal;
 
 import java.util.HashMap;
 import java.util.Scanner;
