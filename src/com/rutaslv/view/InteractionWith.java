@@ -16,7 +16,7 @@ public class InteractionWith {
 
         Scanner scanner = new Scanner(System.in);
         String animal;
-        System.out.println("Hi there! Animals are waiting for you.");
+        System.out.println("Hi there! Animals are waiting for you. Which one would you like to choose?");
 
         System.out.println(theAnimals.keySet());
         animal = scanner.nextLine();
